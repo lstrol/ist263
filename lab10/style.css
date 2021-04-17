@@ -17,13 +17,12 @@ body{
     left:10px;
 }
 
-a:link{
+nav a {color: black}
+
+body a:link{
     color:#0BBF59; 
 }
 
-a:visited{
-    color:#F2F2F2; 
-}
 
 h1{
     color: #F2F2F2;
@@ -44,7 +43,7 @@ nav{
     font-weight: bolder;
    }
 
-nav a {color: black}
+
 
 
 @media only screen and (max-width: 600px) {
