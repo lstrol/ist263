@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>Unit 10 Notes Accessibility</title>
+        <style>
+            #skip {
+                position: absolute;
+                left: -999px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            /* this position based on top left of viewport and pushes the skip link off screen*/
+            #skip:focus {
+                position: absolute;
+                left:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Accessbility </h1>
+        <!-- makde sure you use h1 for heading, h2 for subheading, hh3 for sub sub heading etc. -->
+
+        <img src= "images/LI-Logo.png" width="30" alt="linkedin logo">
+        <!-- npthing in quotes means screen reader ignores-->
+        <!-- do not put image of or photo of-->
+
+        <a href="#maincontent" id="skip">Skip to Content</a>
+        <!-- pound sign says we are linking within page to an element that has an id of main content-->
+        <a href="http://www.google.com" tabindex="3">Google</a>
+        <a href="http://www.amazon.com" tabindexx="2">Amazon</a>
+        <a href="http://www.ebay.com"tabindex= "1">Ebay</a>
+        <!-- for complex layouts determine order of items tabbed thru -->
+
+        <p>Sed accumsan est fringilla a. Ut id felis quis diam pulvinar lobortis. In mollis orci elit, ut sagittis quam aliquam at. Suspendisse sagittis metus non ante gravida facilisis. Nam lacinia nibh vel vestibulum efficitur. Proin lacinia dignissim dictum. Sed malesuada volutpat feugiat. Nam quis nunc aliquet, rhoncus dui eu, hendrerit nunc. Aenean rutrum augue quis sollicitudin viverra. Mauris vulputate iaculis nisi.Sed accumsan est fringilla a. Ut id felis quis diam pulvinar lobortis. In mollis orci elit, ut sagittis quam aliquam at. Suspendisse sagittis metus non ante gravida facilisis. Nam lacinia nibh vel vestibulum efficitur. Proin lacinia dignissim dictum. Sed malesuada volutpat feugiat. Nam quis nunc aliquet, rhoncus dui eu, hendrerit nunc. Aenean rutrum augue quis sollicitudin viverra. Mauris vulputate iaculis nisi.</p>
+    
+        <a id="maincontent"></a>
+        <!-- Here's the thing the anchor tag links to -->
+        <p>Sed accumsan est fringilla a. Ut id felis quis diam pulvinar lobortis. In mollis orci elit, ut sagittis quam aliquam at. Suspendisse sagittis metus non ante gravida facilisis. Nam lacinia nibh vel vestibulum efficitur. Proin lacinia dignissim dictum.Sed accumsan est fringilla a. Ut id felis quis diam pulvinar lobortis. In mollis orci elit, ut sagittis quam aliquam at. Suspendisse sagittis metus non ante gravida facilisis. Nam lacinia nibh vel vestibulum efficitur. Proin lacinia dignissim dictum. Sed malesuada volutpat feugiat. Nam quis nunc aliquet, rhoncus dui eu, hendrerit nunc. Aenean rutrum augue quis sollicitudin viverra. Mauris vulputate iaculis nisi.Sed accumsan est fringilla a. Ut id felis quis diam pulvinar lobortis. In mollis orci elit, ut sagittis quam aliquam at. Suspendisse sagittis metus non ante gravida facilisis. Nam lacinia nibh vel vestibulum efficitur. Proin lacinia dignissim dictum. Sed malesuada volutpat feugiat. Nam quis nunc aliquet, rhoncus dui eu, hendrerit nunc. Aenean rutrum augue quis sollicitudin viverra. Mauris vulputate iaculis nisi.</p>
+
+    </body>
+</html>
