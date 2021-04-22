@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Unit 11 Activity</title>
+        <script>
+            function LeaveForm() {
+                //* alert('You left this form element');
+                document.getElementByID ("message").innerHTML = "you left this form element";
+            }
+        </script>
+    </head>
+    <body>
+        <form action= "mailto:lcstrol@syr.edu" method="POST">
+            <label for= "firstname">Enter first name:</label>
+            <input type="text" name="firstname" id="firstname" onblur="LeaveForm();"><br>  
+       
+            <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
