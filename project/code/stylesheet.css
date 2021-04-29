@@ -2,6 +2,7 @@ body {
     color: black;
     background-color: rgb(231, 229, 229);
     padding: 50px;
+    font-family: Karla;
 }
 
 .links {
@@ -10,11 +11,78 @@ body {
 
 .pagetitle {
     text-align: center;
-    font-family: OpenSans-ExtraBold;
+    font-family: Butler;
     font-size: x-large;
+    
+}
+
+.inspirationblock {
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.inspotextsection {
+
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.inspoimage .inspotextsection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inspohead {
+    text-align: left;
+}
+
+.links .pagetitle .emptyspace {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipeblock{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foodphotos{
+    display:flex;
+    flex-wrap: wrap;
+    flex: 33.3%;
+    padding: 5px;
+
+}
+
+.navbar a:hover { 
+    color: cadetblue;
+}
+
+.navbar a:visited{
+    color: black;
+}
+
+.links {
+    flex-wrap: wrap;
+}
+
+h2 { 
+    font-family: Karla;
+    font-size: x-large;
+    text-align: center;
 }
 
 @font-face {
-    font-family: OpenSans-ExtraBold;
-    src: url(../fonts/OpenSans-ExtraBold.ttf);
+    font-family: Karla;
+    src: url(../fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: SoehneBreit;
+    src: url(../fonts/test-soehne-fett.woff);
+}
+
+@font-face {
+    font-family: Butler;
+    src: url(../fonts/Butler_Bold.otf);
 }
