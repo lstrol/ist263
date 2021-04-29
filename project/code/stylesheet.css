@@ -72,6 +72,12 @@ h2 {
     text-align: center;
 }
 
+.parent {
+    display: flex;
+}
+
+.col1, .col2, .col2 {flex: 1;}
+
 @font-face {
     font-family: Karla;
     src: url(../fonts/Karla-Regular.ttf);
