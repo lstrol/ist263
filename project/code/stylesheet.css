@@ -1,30 +1,150 @@
+/*SITEWIDE*/
+
 body {
+    width: 100%;
     color: black;
-    background-color: rgb(231, 229, 229);
-    padding: 50px;
-    font-family: Karla;
+    background-color: #F2F2F2;
+    font-family: Roboto;
+    font-size: .8em;
 }
 
-.links {
-    text-align: left;
-} 
+body, html { 
+    height: 100%;
+}
+
+.img-contbfast {
+    background-image: url(../photos/breakfast_banner.jpg);
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img-contlunch {
+    background-image: url(../photos/lunchbanner2.jpeg);
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img-contdinner {
+    background-image: url(../photos/dinnerbanner.jpeg);
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-cont {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.navbar a:hover { 
+    color: cadetblue;
+}
 
 .pagetitle {
     text-align: center;
-    font-family: Butler;
-    font-size: x-large;
+    font-family: Ovo;
+    font-size: 2.5em;
+    color: #594C3C;
     
 }
+
+footer {
+    background-color: #CEECF2;
+}
+
+.emptyspacetop {
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerspace {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.navbar a:visited{
+    color: black;
+}
+
+h2 { 
+    font-family: Roboto;
+    font-size: x-large;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+.links {
+    text-align: center;
+    padding-bottom: 70px;
+} 
+
+.emptyspace{
+    padding: 30px;
+}
+
+
+
+/*RECIPES PAGE*/
+
+.bannertext {
+    font-family: Roboto;
+    font-size: 4em;
+}
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-top: 70px;
+    justify-content: space-around;
+}
+
+.col1, .col2, .col3 {flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col1 {max-width: 100%;}
+
+h5{
+    font-family: Roboto;
+}
+
+
+
+.recipetitle {
+    font-family: Ovo;
+    font-size: 2em;
+    text-align: left;
+}
+
+
+/*ABOUT*/
 
 .inspirationblock {
     padding-right: 30%;
     padding-left: 30%;
-}
-
-.inspotextsection {
-
-    padding-left: 30%;
-    padding-right: 30%;
 }
 
 .inspoimage .inspotextsection {
@@ -36,47 +156,10 @@ body {
     text-align: left;
 }
 
-.links .pagetitle .emptyspace {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.recipeblock{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.foodphotos{
-    display:flex;
-    flex-wrap: wrap;
-    flex: 33.3%;
-    padding: 5px;
 
-}
-
-.navbar a:hover { 
-    color: cadetblue;
-}
-
-.navbar a:visited{
-    color: black;
-}
-
-.links {
-    flex-wrap: wrap;
-}
-
-h2 { 
-    font-family: Karla;
-    font-size: x-large;
-    text-align: center;
-}
-
-.parent {
-    display: flex;
-}
-
-.col1, .col2, .col2 {flex: 1;}
+/* FONTS */
 
 @font-face {
     font-family: Karla;
@@ -92,3 +175,28 @@ h2 {
     font-family: Butler;
     src: url(../fonts/Butler_Bold.otf);
 }
+
+@font-face {
+    font-family: Ovo;
+    src: url(../fonts/Ovo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+    .parent {padding-right: 20px;
+            padding-left: 20px;
+    }
+    .col1 {padding-left: 50%;
+        padding-right: 50%;
+    }
+    .footerspace{display: none;}
+}
+
+
