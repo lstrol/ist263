@@ -142,21 +142,46 @@ h5{
 
 /*ABOUT*/
 
-.inspirationblock {
-    padding-right: 30%;
-    padding-left: 30%;
+.inspiration {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-.inspoimage .inspotextsection {
-    display: flex;
-    flex-wrap: wrap;
+.col1inspo, .col2inspo {
+    flex:1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inspoimg {
+    max-width: 100%;
 }
 
 .inspohead {
     text-align: left;
+    font-family: Ovo;
+    font-size: 2em;
 }
 
+.philotext {
+    text-align: center;
+    font-family: Ovo;
+    font-size: 2em;
+}
 
+.philosophy {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #CEECF2;
+}
 
 
 /* FONTS */
