@@ -22,7 +22,7 @@ body, html {
 }
 
 .img-contlunch {
-    background-image: url(../photos/lunchbanner2.jpeg);
+    background-image: url(../photos/lunchbanner2.jpg);
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body, html {
 }
 
 .img-contdinner {
-    background-image: url(../photos/dinnerbanner.jpeg);
+    background-image: url(../photos/dinnerbanner.jpg);
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,6 +181,44 @@ h5{
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #CEECF2;
+}
+
+
+/* HOME */
+
+.img-conthomehero {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.homehero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homebannertext, .featuredrecipeshead {
+    font-family: Ovo;
+    font-size: 3em;
+}
+
+.homerow1, .homerow2 {
+    display: flex;
+    padding-left: 220px;
+    padding-right: 220px;
+    justify-content: center;
+}
+
+.homeimg-1, .homeimg-2, .homeimg-3 {
+    flex: 1; 
+    padding: 40px;
+    width: 50%;
+}
+
+.featuredhead {
+    font-family: Roboto;
 }
 
 
