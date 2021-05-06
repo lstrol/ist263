@@ -13,7 +13,7 @@ body, html {
 }
 
 .img-contbfast {
-    background-image: url(../photos/breakfast_banner.jpg);
+    background-image: url("../photos/breakfast_banner.jpg");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body, html {
 }
 
 .img-contlunch {
-    background-image: url(../photos/lunchbanner2.jpg);
+    background-image: url("../photos/lunchbanner2.jpg");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body, html {
 }
 
 .img-contdinner {
-    background-image: url(../photos/dinnerbanner.jpg);
+    background-image: url("../photos/dinnerbanner.jpg");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
