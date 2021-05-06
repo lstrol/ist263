@@ -16,7 +16,6 @@ body, html {
     background-image: url("../photos/breakfast_banner.jpg");
     height: 60%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -25,7 +24,6 @@ body, html {
     background-image: url("../photos/lunchbanner2.jpg");
     height: 60%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -34,7 +32,6 @@ body, html {
     background-image: url("../photos/dinnerbanner.jpg");
     height: 60%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
