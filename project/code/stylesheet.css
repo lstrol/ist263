@@ -180,6 +180,50 @@ h5{
     background-color: #CEECF2;
 }
 
+.about-section {
+    display: flex;
+    padding-left:215px;
+    padding-right: 215px;
+}
+
+.abouthead {
+    font-family: Ovo;
+    text-align: center;
+    font-size: 2em;
+}
+
+.contactsection {
+    text-align: center;
+}
+
+.about-text {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contact-head {
+    font-size: 1.3em;
+    font-family: Ovo;
+}
+
+.form1parent {
+    display: flex;
+    background-color:#594C3C;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form2parent {
+    display: flex;
+    background-color:#594C3C;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 
 /* HOME */
 
@@ -218,43 +262,7 @@ h5{
     font-family: Roboto;
 }
 
-.about-section {
-    display: flex;
-    padding-left:215px;
-    padding-right: 215px;
-}
 
-.abouthead {
-    font-family: Ovo;
-    text-align: center;
-    font-size: 2em;
-}
-
-.contactsection {
-    text-align: center;
-}
-
-.about-text {
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.contact-head {
-    font-size: 1.3em;
-    font-family: Ovo;
-}
-
-.form1parent {
-    display: flex;
-    background-color: lightblue;
-    margin: 80px;
-}
-
-.form2parent {
-    display: flex;
-    background-color: lightblue;
-    margin: 80px;
-}
 
 
 /* FONTS */
