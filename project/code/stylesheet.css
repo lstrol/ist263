@@ -227,6 +227,7 @@ h5{
 .abouthead {
     font-family: Ovo;
     text-align: center;
+    font-size: 2em;
 }
 
 .contactsection {
@@ -236,6 +237,23 @@ h5{
 .about-text {
     padding-right: 50px;
     padding-left: 50px;
+}
+
+.contact-head {
+    font-size: 1.3em;
+    font-family: Ovo;
+}
+
+.form1parent {
+    display: flex;
+    background-color: lightblue;
+    margin: 80px;
+}
+
+.form2parent {
+    display: flex;
+    background-color: lightblue;
+    margin: 80px;
 }
 
 
