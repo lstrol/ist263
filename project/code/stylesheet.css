@@ -218,6 +218,26 @@ h5{
     font-family: Roboto;
 }
 
+.about-section {
+    display: flex;
+    padding-left:215px;
+    padding-right: 215px;
+}
+
+.abouthead {
+    font-family: Ovo;
+    text-align: center;
+}
+
+.contactsection {
+    text-align: center;
+}
+
+.about-text {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 
 /* FONTS */
 
