@@ -44,8 +44,11 @@ body, html {
     transform: translate(-50%, -50%);
     color:black;
 }
-.navbar a:hover { 
-    color: cadetblue;
+
+.navbar a {
+    padding: 7px;
+    font-family: Roboto;
+    font-size: 1em;
 }
 
 .pagetitle {
@@ -102,8 +105,8 @@ h5 {
 /*RECIPES PAGE*/
 
 .bannertext {
-    font-family: Roboto;
-    font-size: 4em;
+    font-family: Mantra;
+    font-size: 2em;
 }
 
 
@@ -198,7 +201,8 @@ h5{
 
 .about-text {
     padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
 .contact-head {
@@ -208,22 +212,34 @@ h5{
 
 .form1parent {
     display: flex;
-    background-color:#594C3C;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
     margin-bottom: 100px;
+    justify-content: center;
 }
 
 .form2parent {
     display: flex;
-    background-color:#594C3C;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
     margin-bottom: 100px;
+    justify-content: center;
 }
 
+textarea {
+    background-color: #594C3C;
+    color: white;
+    width: 100%;
+}
+
+.formlegend {
+    font-family: Ovo;
+    font-size: 2em;
+    color:#594C3C;
+    text-align: center;
+}
 
 /* HOME */
 
@@ -290,6 +306,11 @@ h5{
 @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mantra;
+    src: url(../fonts/Mantra-Regular.ttf);
 }
 
 

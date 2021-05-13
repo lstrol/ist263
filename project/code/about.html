@@ -24,9 +24,9 @@
 
         <nav class="navbar"> 
             <div class="links">
-                <a href="home.html"> Home | </a>
-                <a href="recipes.html"> Recipes | </a>
-                <a href="about.html"> About </a>
+                <a href="home.html"> Home</a>
+                <a href="recipes.html"> Recipes</a>
+                <a href="about.html"> About</a>
             </div>
         </nav>
 
@@ -58,18 +58,23 @@
                 </div>
             </section>
 
+            <a id="contactlink">
+
             <div class="emptyspace">
 
             </div>
-
-    
+            
             <header>
                 <h2 class="abouthead"> About Me</h2><br>
             </header>
 
             <section>
 
+                
                 <div class="about-section">
+                    <div class="about-photo">
+                        <img src="../photos/aboutimage3.png" alt="Portrait of Lucinda">
+                    </div>
                     <div class="about-text">
                     <p> My name is Lucinda Strol and I’m a junior at Syracuse University. I’ve been cooking and baking since I was around 10-years-old. The first food I remember learning to cook was oatmeal with my mom in the mornings before elementary school. Throughout middle and high school, I spent a lot of time watching Cake Boss and baking pies, cakes, and cookies. My parents raised me on all-organic, non-processed food, so eating wholesome and healthy food remains one of my biggest priorities to this day. I wouldn’t call myself the best cook ever, but making food is something I enjoy a lot. Moving into my own apartment this year meant that I would have to cook and shop for myself regularly. I’m still learning how much is the right amount to spend at Trader Joes and remembering to turn off the stove, but I’ve definitely learned a lot in the past 6 months and want to share some of my tips and go-to recipes!
                     </p>
@@ -77,41 +82,44 @@
                         <p> <strong>Phone:</strong> 914-482-7981 <br>
                         <strong>Email:</strong>lucinda.strol@gmail.com</p>
                     </div>
-                    <div class="about-photo">
-                        <img src="../photos/aboutphoto3.jpeg" alt="Portrait of Lucinda">
-                    </div>
                 </div>
+                </a>
 
             </section>
 
+
+                    <a id="form1link">
                     <div class="form1parent">
                         <a id="#Feedback"></a>
                         <form action="mailto:lcstrol@syr.edu" method="post">
                             <fieldset>
-                                <legend> Give Feedback </legend>
+                                <legend class="formlegend"> Give Feedback </legend>
                                 
 
-                                <label for="feedback"> Give me feeback: </label><br>
-                                <textarea name="feedback" id="feedback" rows="10" >Let me know how one of the recipes went</textarea><br>    
+                                <label for="feedback"> Let me know what you think </label><br>
+                                <textarea name="feedback" id="feedback" rows="10" ></textarea><br>    
 
                                 <input type="submit" value="Submit">
                             </fieldset>
                         </form>
-                    </div>  
-
+                    </div> 
+                    </a>
+                    
+                    <a id="form2link">
                     <div class="form2parent">
                         <a id="#Share"></a>
                         <form action="mailto:lcstrol@syr.edu" method="post">
                             <fieldset>
-                                <legend> Share Recipes </legend>
+                                <legend class="formlegend"> Share Recipes </legend>
 
-                                <label for="share"> Share your own recipe: </label><br>
-                                <textarea name="share" id="share" rows="10">Share one of your own recipes to be featured</textarea><br>    
+                                <label for="share"> What am I missing? </label><br>
+                                <textarea name="share" id="share" rows="10"></textarea><br>    
 
                                 <input type="submit" value="Submit">
                             </fieldset>
                         </form>
                     </div>
+                    </a>
     
         </main>
         <br>
@@ -140,9 +148,9 @@
 
             <div class="fcol3">
                 <h5>Reach Out</h5>
-                <a href="about.html"> Give Feedback </a> <br>
-                <a href="about.html"> Share a Recipe </a> <br>
-                <a href="about.html"> Contact </a>
+                <a href="#form1link"> Give Feedback </a> <br>
+                <a href="#form2link"> Share a Recipe </a> <br>
+                <a href="#contactlink"> About the Owner</a>
             </div>
 
             <div class=footerspace>
