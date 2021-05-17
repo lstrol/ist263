@@ -105,16 +105,11 @@ h5 {
 /*RECIPES PAGE*/
 
 .bannertext {
-    font-family: Roboto;
+    font-family: Ovo;
     font-size: 3em;
     color: black;
 }
 
-.bannertextlunch {
-    ont-family: Roboto;
-    font-size: 3em;
-    color: black;
-}
 
 
 .parent {
@@ -359,12 +354,12 @@ textarea {
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 600px) {
-    .parent {padding-right: 20px;
-            padding-left: 20px;
+    .parent {
+        flex-wrap: wrap;
+        padding-right: 40px;
+        padding-left: 40px;
     }
-    .col1 {padding-left: 50%;
-        padding-right: 50%;
-    }
+   
     .footerspace{display: none;}
    
 }
@@ -432,6 +427,17 @@ textarea {
         resize: none;
     }
 
+    .inner-cont {
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #lunch {
+        color: white;
+    }  
 }
 
 
