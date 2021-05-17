@@ -40,10 +40,9 @@ body, html {
 .inner-cont {
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 10%;
     transform: translate(-50%, -50%);
-    color:black;
 }
 
 .navbar a {
@@ -106,8 +105,14 @@ h5 {
 /*RECIPES PAGE*/
 
 .bannertext {
-    font-family: Ovo;
-    font-size: 4em;
+    font-family: Roboto;
+    font-size: 3em;
+    color: black;
+}
+
+.bannertextlunch {
+    ont-family: Roboto;
+    font-size: 3em;
     color: white;
 }
 
