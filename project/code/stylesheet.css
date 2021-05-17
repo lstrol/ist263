@@ -14,15 +14,16 @@ body, html {
 
 .img-contbfast {
     background-image: url("../photos/breakfast_banner.jpg");
-    height: 60%;
+    height: 300px;
     background-position: center;
     background-size: cover;
     position: relative;
+    display: block;
 }
 
 .img-contlunch {
     background-image: url("../photos/lunchbanner2.jpg");
-    height: 60%;
+    height: 300px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -30,7 +31,7 @@ body, html {
 
 .img-contdinner {
     background-image: url("../photos/dinnerbanner.jpg");
-    height: 60%;
+    height: 300px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -105,8 +106,9 @@ h5 {
 /*RECIPES PAGE*/
 
 .bannertext {
-    font-family: Mantra;
-    font-size: 2em;
+    font-family: Ovo;
+    font-size: 4em;
+    color: white;
 }
 
 
@@ -142,19 +144,26 @@ h5{
 
 /*ABOUT*/
 
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
 .inspiration {
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 230px;
+    padding-right: 230px;
     padding-bottom: 30px;
-    align-items: center;
     justify-content: center;
 }
 
 .col1inspo, .col2inspo {
     flex:1;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .inspoimg {
@@ -163,6 +172,7 @@ h5{
 
 .inspohead {
     text-align: left;
+    padding-top: 60px;
     font-family: Ovo;
     font-size: 2em;
 }
@@ -174,6 +184,7 @@ h5{
 }
 
 .philosophy {
+    display: flex;
     margin-left: 300px;
     margin-right: 300px;
     padding-right: 60px;
@@ -212,26 +223,32 @@ h5{
 
 .form1parent {
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
 .form2parent {
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
 textarea {
-    background-color: #594C3C;
-    color: white;
-    width: 100%;
+    background-color: #F2F2F2;
+    color: #594C3C;
+    width: 500px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
 }
 
 .formlegend {
@@ -241,24 +258,40 @@ textarea {
     text-align: center;
 }
 
+.button {  
+    background-color: #594C3C; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: Roboto;
+}
+
 /* HOME */
 
 .img-conthomehero {
+    background-image: url("../photos/omebanner4.jpg");
+    height: 650px;
+    background-position: center;
+    background-size: cover;
     position: relative;
-    text-align: center;
-    color: black;
+    display: block;
+    
 }
 
-.homehero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-.homebannertext, .featuredrecipeshead {
+.featuredrecipeshead {
     font-family: Ovo;
     font-size: 3em;
+}
+
+.homebannertext, .homebannertext2 {
+    text-align: left;
+    padding-left: 40px;
+
 }
 
 .homerow1, .homerow2 {
@@ -276,6 +309,10 @@ textarea {
 
 .featuredhead {
     font-family: Roboto;
+}
+
+.emptyspacetop2 {
+    padding: 20px;
 }
 
 
@@ -324,6 +361,72 @@ textarea {
         padding-right: 50%;
     }
     .footerspace{display: none;}
+   
+}
+
+@media only screen and (max-width: 900px) {
+    .homerow1, .homerow2 {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 30px;
+        justify-content: center;
+    }
+    .homeimg-1, .homeimg-2, .homeimg-3 {
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    .featuredhead, .featuredtext {
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 60px;
+    }
+
+    .inspiration{
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .inspoimg {
+        padding-bottom: 15px;
+    }
+
+    .inspohead{
+        padding-top : 10px;
+    }
+
+    .philosophy {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-color: #CEECF2;
+    }
+
+    .about-section {
+        flex-wrap: wrap;
+        padding-left:30px;
+        padding-right: 30px;
+        justify-content: center;
+    }
+
+    .aboutphoto {
+        justify-content: center;
+    }
+
+    textarea {
+        width: 400px;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+    }
+
 }
 
 
