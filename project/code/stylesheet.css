@@ -404,6 +404,32 @@ textarea {
     }
    
     .footerspace{display: none;}
+
+    #lunch {
+        color: white;
+    }
+
+    #bigimages{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;;
+    }
+
+    #recipeinfo {
+        padding-bottom: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    #thumbnails {
+        padding-top: 10px;
+        margin-left: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
    
 }
 
@@ -476,33 +502,6 @@ textarea {
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    #lunch {
-        color: white;
-    }
-
-    #bigimages{
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        margin-left: 0px;
-        margin-right: 0px;;
-    }
-
-    #recipeinfo {
-        padding-bottom: 20px;
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 20px;
-    }
-
-    #thumbnails {
-        padding-top: 10px;
-        margin-left: 0px;
-        padding-left: 30px;
-        padding-right: 30px;
-
     }
     
 }
