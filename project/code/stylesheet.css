@@ -405,7 +405,7 @@ textarea {
    
     .footerspace{display: none;}
 
-    #lunch {
+    #lunch, #dinner {
         color: white;
     }
 
