@@ -326,7 +326,7 @@ textarea {
 }
 
 
-.featuredrecipeshead {
+.featuredrecipeshead, .seasonalfavhead {
     font-family: Ovo;
     font-size: 3em;
 }
